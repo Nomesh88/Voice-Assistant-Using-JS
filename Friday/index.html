@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F R I D A Y</title>
+</head>
+<body>
+<audio src="power up.mp3" id="audio"></audio>
+<audio src="Jarvis.mp3"   id="audio1"></audio>
+
+    <h1>We are building friday</h1>
+    
+    <div class="machine">
+
+       <div class="clock cont">
+            <img src="Clock.gif" class="icon">
+            <p id="time"> </p>
+        </div>
+
+        <div class="internet cont">
+            <img src="internet.jpg" class="icon">
+            <p id="internet">
+
+            </p>
+        </div>
+
+        <div class="battery cont">
+            <img src="battery.png" class="icon">
+            <p id="battery">
+            </p>
+        </div>
+    <div class="temp">
+        <p id="location"></p>
+        <p id="country"></p>
+        <p id="weatherT"></p>
+        <p id="weatherD"></p>
+        <img src="" id="weatherIcon" />
+        <p id="oTemp"></p>
+        <p id="feelLikeTemp"></p>
+        <p id="minT"></p>
+        <p id="maxT"></p>
+      </div>
+      <!--<img src="ironaman.gif" id="iron_man">-->
+      <!--<img src="jarvis.gif" id="jarvi">-->
+      </div>
+
+     <div id="start_jarvis" title="Start JARVIS" class="hide_on_small">
+          <img src="jarvis1.gif" alt="start jarvis">
+      </div>
+      
+      <div class="messages"></div>
+    <div class="commands in_middle"></div>
+
+      <div class="jarvis_setup in_middle">
+          <label for="">Your Name</label>
+          <input type="text">
+          <br>
+          <label for="">Your Bio</label>
+          <input type="text">
+          <br>
+          <label for="">Your Location</label>
+          <input type="text">
+          <br>
+          <label for="">Instagram Profile</label>
+          <input type="text">
+          <br>
+          <label for="">Github Profile</label>
+          <input type="text">
+          <button id="sub">Submit</button>
+          </div>
+          <video id="video" width="240" height="260"  autoplay muted></video>
+        
+
+
+    <button id="start" style=display:none;>vr start</button>
+    <button id="stop" style=display:none;>vr deactive</button>
+    <button id="speakout" style=display:none;>Speak out</button>
+    <script defer src="face-api.min.js"></script>
+    <script defer src="script2.js"></script>
+    <script src="./app.js"></script>
+
+    <noscript>You need  js for web app</noscript>
+</body>
+</html>

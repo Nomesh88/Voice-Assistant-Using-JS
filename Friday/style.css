@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200&display=swap');
+
+*{
+  /*background-color: black*/
+  margin:0;
+  padding:0;
+  color:white;
+  font-family:'Algerian', Courier, monospace;
+  box-sizing: border-box;
+  position:fixed;
+}
+
+button{
+  color:black;
+  top:50%;
+  left:50%;
+}
+canvas{
+  position: absolute;
+}
+
+label{
+  color:#f70909;
+  text-align:center;
+  
+}
+
+input{
+  background-color: white;
+color:black;
+margin-top: 10px;
+outline:none;
+border:none;
+border-bottom:3px solid black;
+width:60vw;
+}
+
+#sub{
+  background-color:red;
+  color:white;
+  width:80px;
+  padding:10px 5px;
+  outline:none;
+  border:none;
+  border-radius:10px;
+  margin-top: 20px;
+align-items:center ;
+}
+
+.machine{
+background-image: url(ironman2.gif);
+background-size: cover;
+height:100vh;
+width:100vw;
+user-select: none;
+}
+
+.machine *{
+position:absolute;
+color:black;
+}
+
+#jarvi{
+  bottom:0;
+  left:0;
+}
+
+
+#iron_man{
+  bottom:0;
+  right:0;
+  /*height:40vh;
+  width:40vw;*/
+}
+.in_middle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10000;
+
+  width: 80vw;
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+.in_middle::-webkit-scrollbar {
+  display: block;
+}
+
+.in_middle::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.in_middle::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+.in_middle * {
+  position: static;
+}
+
+.icon{
+  height:50px;
+  width:50px;
+  object-fit: cover;
+  padding:3px;
+  background-color: white;
+  border-radius:70%;
+}
+
+.cont *{
+position:static;
+color:black;
+}
+#video{
+  top:70%;
+  right:0%;
+}
+.cont{
+  top:10px;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius:50%;
+}
+
+.battery{
+  margin-top: 10px;
+  left:50%;
+  width:100px;
+  transform: translateX(-50%);
+}
+
+.clock{
+  margin-top: 10px;
+  width:150px;
+  left:10px;
+}
+#time{
+  color:black;
+  font-style: bold;
+}
+.internet{
+  color:black;
+  top:100px;
+  left:15px;
+  width:120px;
+  margin-top: 10px;
+  border-radius:50%;
+}
+
+.internet img{
+  height:5vh;
+}
+
+.temp{
+  top:10px;
+  right:10px;
+  text-align:right;
+  font-size:medium;
+  background-color: tomato;
+}
+
+.temp p{
+  background-color: tomato;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position:static;
+}
+
+
+
+#weatherIcon{
+position:relative;
+background-color: thistle;
+}
+
+.messages * {
+  position: static;
+}
+
+.messages {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+/*   overflow-y: scroll; */
+  max-height: 600px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 15px;
+  z-index: 1000;
+}
+
+.messages::-webkit-scrollbar {
+  display: none;
+}
+
+.usermsg {
+  text-align: right;
+  width: 300px;
+  color: #ec1ea8;
+  background-color: white;
+}
+
+.jmsg {
+  text-align: left;
+  margin-top: 15px;
+  width: 300px;
+  color: #24e72e;
+}
+
+.commands {
+  display: none;
+  background-color: white;
+}
+
+.commands p {
+  color: rgb(197, 0, 0);
+}
+
+#start_jarvis{
+  border:none;
+  outline:none;
+  position:fixed;
+  left:100px;
+  transform: translateX(0);
+  top:600px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+#start_jarvis img{
+  height:300px;
+
+}
+
+#start{
+  position:absolute;
+}
+
+
+
